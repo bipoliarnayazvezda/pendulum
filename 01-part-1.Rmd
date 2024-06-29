@@ -2,7 +2,10 @@
 output:
   html_document: default
   word_document: default
+  pdf_document: default
+  epub_document: default
 ---
+
 # Часть I. Социальный маятник {-#chapter-1}
 
 <div align=right>

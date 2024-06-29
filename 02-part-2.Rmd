@@ -1,8 +1,11 @@
 ---
 output:
-html_document: default
-word_document: default
+  html_document: default
+  word_document: default
+  pdf_document: default
+  epub_document: default
 ---
+
 # Часть II. Гром и Молния {-#chapter-2}
 
 <div align=right>

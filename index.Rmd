@@ -3,17 +3,9 @@ title: "Рады видеть вас В бюро ритуальных услуг
 author: "Александра Булгакова"
 date: '2016'
 output:
-  word_document: default
   pdf_document: default
+  word_document: default
+  epub_document: default
 documentclass: book
-bibliography:
-- book.bib
-- packages.bib
-description: |
-  This is a minimal example of using the bookdown package to write a book.
-  set in the _output.yml file.
-  The HTML output format for this example is bookdown::gitbook,
 link-citations: yes
-github-repo: "rstudio/bookdown-demo"
-site: bookdown::bookdown_site
 ---
