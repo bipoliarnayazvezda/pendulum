@@ -1,11 +1,13 @@
---- 
-title: "Рады видеть вас В бюро ритуальных услуг «Маятник»"
+---
+title: "Рады видеть вас в бюро ритуальных услуг «Маятник»"
 author: "Александра Булгакова"
 date: '2016'
-output:
-  pdf_document: default
-  word_document: default
-  epub_document: default
+site: bookdown::bookdown_site
 documentclass: book
-link-citations: yes
+url: https://bipoliarnayazvezda.github.io/pendulum/
+github-repo: bipoliarnayazvezda/pendulum
+description: ""
+link-citations: true
 ---
+
+# Рады видеть вас в бюро ритуальных услуг «Маятник» {-#chapter-0}

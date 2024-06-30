@@ -1,11 +1,19 @@
 bookdown::gitbook:
   css: style.css
   config:
-    download: ["pdf", "epub"]
-bookdown::pdf_book:
-  includes:
-    in_header: preamble.tex
-  latex_engine: xelatex
-  citation_package: natbib
-  keep_tex: yes
+    toc:
+      toc_depth: 1
+      before: |
+        <li><a href="./">Рады видеть вас В бюро ритуальных услуг «Маятник»</a></li>
+      after: |
+        <li><em><a href="https://bipoliarnayazvezda.github.io/" target="blank">Александра Булгакова</a></em></li>
+    download:
+      - ["pendulum.epub", "EPUB"]
+      - ["pendulum.docx", "DOCX"]
+      - ["pendulum.pdf", "PDF"]
+    search:
+      engine: lunr
+    edit : null
+    info: false
+    sharing: null
 bookdown::epub_book: default
