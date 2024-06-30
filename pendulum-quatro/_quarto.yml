@@ -7,10 +7,10 @@ book:
   author: "Александра Булгакова"
   date: "2016"
   chapters:
-    - "index.qmd"
-    - "../01-part-1.Rmd"
-    - "../02-part-2.Rmd"
-    - "../03-part-3.Rmd"
+    - index.qmd
+    - ../01-part-1.Rmd
+    - ../02-part-2.Rmd
+    - ../03-part-3.Rmd
 
 format:
   pdf:
@@ -22,6 +22,8 @@ format:
   docx:
     output-file: "pendulum.docx"
     toc-title: "Оглавление"
+  epub:
+    output-file: "pendulum.epub"
 
 
 

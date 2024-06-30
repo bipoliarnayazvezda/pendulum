@@ -17,6 +17,7 @@ To render book:
 
 ```
 bookdown::render_book()
+bookdown::render_epub()
 ```
 
 Ro render files

@@ -4,7 +4,7 @@ bookdown::gitbook:
     toc:
       toc_depth: 1
       before: |
-        <li><a href="./">Рады видеть вас В бюро ритуальных услуг «Маятник»</a></li>
+        <li><a href="./">Рады видеть вас в бюро ритуальных услуг «Маятник»</a></li>
       after: |
         <li><em><a href="https://bipoliarnayazvezda.github.io/" target="blank">Александра Булгакова</a></em></li>
     download:
