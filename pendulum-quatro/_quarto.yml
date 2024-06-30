@@ -1,0 +1,27 @@
+project:
+  type: book
+  output-dir: ../docs
+
+book:
+  title: "Рады видеть вас в бюро ритуальных услуг «Маятник»"
+  author: "Александра Булгакова"
+  date: "2016"
+  chapters:
+    - "index.qmd"
+    - "../01-part-1.Rmd"
+    - "../02-part-2.Rmd"
+    - "../03-part-3.Rmd"
+
+format:
+  pdf:
+    output-file: "pendulum.pdf"
+    toc-depth: 2
+    fontfamily: libertinus
+    documentclass: scrreprt
+    papersize: a5paper
+  docx:
+    output-file: "pendulum.docx"
+    toc-title: "Оглавление"
+
+
+
